@@ -55,10 +55,14 @@
   <br>
 
   <div class="inner-Div">
+
     <h2>Contact</h2>
     <hr class="hr.new1">
     </hr>
+<!-- old code that wasn't responsive
+    <div>
     <form>
+      </div>
       Name<br>
       <input type="text" name="John Smith"><br>
 
@@ -70,7 +74,41 @@
       <br><br>
       <input type="submit" value="Submit"><br>
     </form>
-  </div>
+    </div>
+  </div> 
+-->
+
+<div class="container">
+    <div class="row">
+      <div class="col-25">
+        <label for="name">Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="name" name="firstname" placeholder="Rick or Morty">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="email">Email</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="name" name="firstname" placeholder="name@email.com">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="message">Message</label>
+      </div>
+      <div class="col-75">
+        <textarea id="message" name="message" placeholder="What you want?!?!?" style="height:200px"></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <input type="submit" value="Submit">
+    </div>
+  </form>
+</div>
+
   <footer>
     <h5>Copyright &#169; Jaycee Bagtas 2019</h5>
     </div>
