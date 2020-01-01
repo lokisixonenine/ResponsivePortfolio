@@ -1,4 +1,7 @@
-
+h2 {
+    color: orange;
+    text-shadow: 2px 2px lightgray;
+}
 .inner-Div {
 
     width: 100%;
@@ -13,8 +16,17 @@
     float: left;
     padding: 15px;
     border-radius: 50%;
+}
 
+footer {
+    position: bottom;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+}
 
-[class*="col-"] {
+[class*="col-"] {        
     width: 100%;
 }
