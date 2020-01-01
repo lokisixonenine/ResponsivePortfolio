@@ -1,13 +1,12 @@
-
- .header {
+.header {
     height: 80px;
     padding: 10px;
-    background-color:silver;
+    background-color: silver;
     position: relative;
 }
 
 .inner-Div {
-    
+
     width: 100%;
     padding: 10px;
     background-color: white;
@@ -21,7 +20,7 @@
     float: left;
     padding: 15px;
     border-radius: 50%;
-    
+
 }
 
 div {
@@ -29,7 +28,8 @@ div {
 }
 
 h2 {
-    color: #4aaaa5;
+    color: orange;
+    text-shadow: 2px 2px 2px darkgrey;
 }
 
 body {
@@ -39,7 +39,7 @@ body {
 nav {
     margin: 0 auto;
     padding: 45px;
-    font-family: 'Baumans',cursive;
+    font-family: 'Baumans', cursive;
 }
 
 footer {
@@ -48,8 +48,8 @@ footer {
     width: 100%;
     padding: 10px;
     position: fixed;
-    left:0;
-    bottom:0;
+    left: 0;
+    bottom: 0;
 }
 
 .column {
@@ -59,6 +59,3 @@ footer {
     padding: 0 50px;
     align-items: center;
 }
-
-
-
