@@ -18,4 +18,10 @@ Minimum Requirements for this assignment:
 Bonus item: using bootstrap, make a sticky footer and use sub-rows and sub-columns on this site
 
 Developer's notes:
-- I will basically just be copying over the code from my previous homework's html files and will be incorporating bootstrap. 
+12/31/2019 
+    - Duplicated html files from Dev-Site repo (week 1 homework) on github.
+    - Added Bootstrap to html.
+    - Added custom CSS to further personalize this app.
+1/4/2010
+    - Further tooled custom CSS as footer was overlapping main divs on index and contact html files.
+    - Changed CSS and HTML code on contact.html as the original code was not responsive. 
