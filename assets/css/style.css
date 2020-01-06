@@ -9,7 +9,7 @@ h1 {
 }
 
 body {
-  background-image: url(/assets/images/seigaiha.png);
+  background-image: url(/assets/images/seigaiha.jpg);
 }
 
 #h3Outline{
@@ -125,7 +125,7 @@ footer {
   }
   
 .jumboHeaderImg {
-  background-image: url(/assets/images/developer2.jpeg);
+  background-image: url(/assets/images/developer2.jpg);
   background-size: cover;
 }
   
