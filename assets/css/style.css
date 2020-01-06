@@ -1,7 +1,23 @@
-
 h2 {
     color: orange;
     text-shadow: 2px 2px lightgray;
+}
+
+h1 {
+  text-shadow: -2px -2px 0 #ccc, 2px -2px #ccc, -2px 2px 0 #ccc, 2px 2px 0 #ccc;
+  position: relative;
+}
+
+body {
+  background-image: url(/assets/images/seigaiha.png);
+}
+
+#h3Outline{
+    text-shadow: -1.5px -1.5px 0 silver,
+    1.5px -1.5px silver,
+    -1.5px 1.5px 0 silver,
+    1.5px 1.5px 0 silver;
+    position: relative;
 }
 .inner-Div {
 
@@ -19,6 +35,26 @@ h2 {
     border-radius: 50%;
 }
 
+.portfolioImages {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.portfolioCaptions {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 10px;
+  width: 100%;
+}
 footer {
     position: fixed;
     left: 0;
@@ -44,10 +80,6 @@ footer {
     margin-top: 6px;
   }
 
-  /* This section makes the contact form responsive */
-  * {
-    box-sizing: border-box;
-  }
   
   input[type=text], select, textarea {
     width: 100%;
@@ -77,9 +109,7 @@ footer {
   }
   
   .container {
-    border-radius: 5px;
-    background-color: #e9ecef;
-    padding: 20px;
+    padding: 15px;
   }
   
   .col-25 {
@@ -94,17 +124,14 @@ footer {
     margin-top: 6px;
   }
   
-
+.jumboHeaderImg {
+  background-image: url(/assets/images/developer2.jpeg);
+  background-size: cover;
+}
   
   @media screen and (max-width: 600px) {
     .col-25, .col-75, input[type=submit] {
-      
-      body {
-        width: 100%;
-      }
-      .container { 
-          width: 100%;
-      }
-      
+      width: 100%;
+      margin-top: 0;
     }
   }
