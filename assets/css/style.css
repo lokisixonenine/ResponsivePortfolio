@@ -38,6 +38,7 @@ body {
 .portfolioImages {
   width: 200px;
   border-radius: 50%;
+  padding: 10px;
 }
 
 .portfolioCaptions {
@@ -135,3 +136,4 @@ footer {
       margin-top: 0;
     }
   }
+
