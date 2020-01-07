@@ -63,6 +63,10 @@ body {
   width: 100%;
 }
 
+.navbar {
+  font-family: 'Anton', sans-serif;
+}
+
 footer {
   position: fixed;
   left: 0;
